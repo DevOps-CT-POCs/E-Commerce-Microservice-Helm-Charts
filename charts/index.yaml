@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  helm-charts:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-02T19:17:01.024157524+05:30"
+    dependencies:
+    - name: redis
+      repository: file://charts/redis
+      version: 0.1.0
+    - name: mongo
+      repository: file://charts/mongo
+      version: 0.1.0
+    - name: products
+      repository: file://charts/products
+      version: 0.1.0
+    - name: users
+      repository: file://charts/users
+      version: 0.1.0
+    - name: cart
+      repository: file://charts/cart
+      version: 0.1.0
+    - name: store
+      repository: file://charts/store
+      version: 0.1.0
+    description: A Helm chart for deploying all the microservice charts.
+    digest: 970300866c6803797f482633d073a1e28dfdcc71dd4036cb007ba75761b41430
+    name: helm-charts
+    type: application
+    urls:
+    - https://DevOps-CT-POCs.github.io/E-Commerce-Microservice-Helm-Charts/helm-charts-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-09-02T19:17:01.020337187+05:30"
